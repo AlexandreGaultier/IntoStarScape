@@ -1,0 +1,78 @@
+.page-combat__intro {
+  margin: 0;
+  max-width: 58ch;
+  color: var(--text-muted);
+}
+
+.page-combat__body {
+  padding: var(--space-xl) 0 var(--space-2xl);
+  display: grid;
+  gap: var(--space-xl);
+}
+
+.page-combat__body .muted {
+  margin-top: -0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.page-combat__list {
+  margin: var(--space-md) 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-muted);
+  display: grid;
+  gap: 0.5rem;
+}
+
+.page-combat__list strong {
+  color: var(--text-heading);
+}
+
+.page-combat__bars {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 960px) {
+  .page-combat__bars {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bar-card {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  padding: var(--space-lg);
+  background: rgba(15, 23, 42, 0.55);
+  position: relative;
+  overflow: hidden;
+}
+
+.bar-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+}
+
+.bar-card--hp::before {
+  background: linear-gradient(90deg, #fb7185, #f97316);
+}
+
+.bar-card--shield::before {
+  background: linear-gradient(90deg, var(--shield), #0ea5e9);
+}
+
+.bar-card--armor::before {
+  background: linear-gradient(90deg, var(--armor), #eab308);
+}
+
+.bar-card h3 {
+  margin-top: 0;
+}
+
+.bar-card p {
+  margin: 0;
+  color: var(--text-muted);
+}
