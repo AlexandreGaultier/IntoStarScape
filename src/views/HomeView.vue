@@ -4,10 +4,10 @@ import { RouterLink } from 'vue-router'
 import ParallaxHero from '../components/ParallaxHero.vue'
 
 /** Visuel hero (paysage conseillé). */
-const heroIllustration = 'src/assets/images/index_exploration.jpg'
+const heroIllustration = './src/assets/images/index_exploration.jpg'
 
 /** Portrait à droite de la section Outriders. */
-const bandPortraitUrl = 'src/assets/images/univers_outriders.jpg'
+const bandPortraitUrl = './src/assets/images/univers_outriders.jpg'
 const bandImgBroken = ref(false)
 
 function onBandImgError() {
@@ -21,8 +21,7 @@ function onBandImgError() {
       <p class="home-mark tag">JDR science-fiction</p>
       <h1 class="home-title">StarScape</h1>
       <p class="home-lead">
-        Un univers de <strong>Frontière</strong>, des contrats dangereux, et un système de dés clair :
-        <strong>pool de d8</strong>, succès sur 6+, tension tactique.
+        Un univers <strong>à explorer</strong>, des contrats dangereux, et un système accessible mais riche.
       </p>
       <div class="home-actions">
         <RouterLink to="/systeme" class="btn btn--primary">Découvrir le système</RouterLink>
@@ -39,7 +38,7 @@ function onBandImgError() {
             Attribut + compétence en dés, difficultés lisibles, résultats qui poussent la narration :
             réussite, bonus, ou échec chargé.
           </p>
-          <RouterLink to="/systeme" class="home-link home-link--systeme">Voir les tests</RouterLink>
+          <RouterLink to="/systeme" class="home-link home-link--systeme">Lire les règles</RouterLink>
         </article>
         <article class="card home-card home-card--combat">
           <h3>Combat nerveux</h3>
@@ -47,7 +46,7 @@ function onBandImgError() {
             Tours courts, battlemap lisible, armes à portées simples, PV / boucliers / armures pour
             des affrontements haletants sans lourdeur.
           </p>
-          <RouterLink to="/combat" class="home-link home-link--combat">Feuille de combat</RouterLink>
+          <RouterLink to="/combat" class="home-link home-link--combat">Comment ça marche ?</RouterLink>
         </article>
         <article class="card home-card home-card--lore">
           <h3>Science-fiction qui respire</h3>

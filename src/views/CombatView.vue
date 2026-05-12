@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
 
-const heroIllustration = 'src/assets/images/index_survie.jpg'
+const heroIllustration = './src/assets/images/index_survie.jpg'
 </script>
 
 <template>
@@ -22,7 +22,7 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
         <ul class="combat-list">
           <li>
             <strong>Court déplacement</strong> + <strong>2 tirs</strong> (chacun envoie plusieurs
-            salves), <em>ou</em>
+            salves)
           </li>
           <li>
             <strong>Long déplacement</strong> en dépensant le tour pour se repositionner radicalement.
@@ -79,7 +79,7 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
         </div>
       </section>
 
-      <section aria-labelledby="armes-title">
+      <section id="armes" aria-labelledby="armes-title">
         <h2 id="armes-title">Armes</h2>
         <p>Maximum <strong>2 armes</strong> portées par personnage.</p>
 
@@ -205,7 +205,7 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
         </div>
       </section>
 
-      <section aria-labelledby="tenues-title">
+      <section id="tenues" aria-labelledby="tenues-title">
         <h2 id="tenues-title">Tenues</h2>
         <p>1 armure équipable.</p>
         <div class="table-wrap">
