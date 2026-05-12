@@ -1,18 +1,18 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
 
-const heroImage = ''
+const heroIllustration = 'src/assets/images/index_hero_background.jpg'
 </script>
 
 <template>
   <article class="page-systeme">
-    <ParallaxHero :image-url="heroImage || undefined" :intensity="0.22">
-      <p class="tag">Mécaniques</p>
-      <h1>Système de jeu</h1>
-      <p class="page-systeme__intro prose" style="color: var(--text-text)">
+    <ParallaxHero :illustration-url="heroIllustration" :intensity="0.22">
+      <p class="page-systeme__tag tag">Mécaniques</p>
+      <h1 class="page-systeme__title">Système de jeu</h1>
+      <p class="page-systeme__intro prose">
         StarScape repose sur un <strong>pool de dés + succès</strong> : rapide à expliquer, riche en
         narration. Tu envisages des <strong>d12</strong> avec succès sur 9+ : garde l’idée en tête
-        pour une future variante — ici, référence actuelle sur <strong>d8</strong> (6, 7, 8 =
+        pour une future variante. Ici, référence actuelle sur <strong>d8</strong> (6, 7, 8 =
         succès).
       </p>
     </ParallaxHero>

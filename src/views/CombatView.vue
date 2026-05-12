@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
 
-const heroImage = ''
+const heroIllustration = 'src/assets/images/index_survie.jpg'
 </script>
 
 <template>
   <article class="page-combat">
-    <ParallaxHero :image-url="heroImage || undefined" :intensity="0.24">
-      <p class="tag">Tactique</p>
-      <h1>Combat &amp; équipement</h1>
+    <ParallaxHero :illustration-url="heroIllustration" :intensity="0.24">
+      <p class="page-combat__tag tag">Tactique</p>
+      <h1 class="page-combat__title">Combat &amp; équipement</h1>
       <p class="page-combat__intro prose">
         Combats sur <strong>battlemap</strong> avec distances lisibles, objectif de parties
         <strong>courtes</strong> : peu de PV, boucliers et armures comme barres tactiques. Le soin
@@ -60,7 +60,7 @@ const heroImage = ''
 
       <section aria-labelledby="portee-title">
         <h2 id="portee-title">Portées</h2>
-        <p class="muted">Valeurs indicatives — ajustement après playtests.</p>
+        <p class="muted">Valeurs indicatives, ajustement après playtests.</p>
         <div class="table-wrap">
           <table>
             <thead>

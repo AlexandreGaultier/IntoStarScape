@@ -40,7 +40,7 @@ const router = createRouter({
 })
 
 router.afterEach((to) => {
-  const piece = to.meta.title ? ` — ${to.meta.title as string}` : ''
+  const piece = to.meta.title ? ` · ${to.meta.title as string}` : ''
   document.title = `StarScape${piece}`
 })
 
