@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
-
-const heroIllustration = './src/assets/images/univers_map.jpg'
+import heroIllustration from '../assets/images/univers_map.jpg'
 </script>
 
 <template>

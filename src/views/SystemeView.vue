@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
-
-const heroIllustration = '../src/assets/images/index_hero_background2.jpg'
+import heroIllustration from '../assets/images/index_hero_background2.jpg'
 </script>
 
 <template>

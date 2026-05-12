@@ -4,7 +4,7 @@ import { useParallax } from '../composables/useParallax'
 
 const props = withDefaults(
   defineProps<{
-    /** Image mise en avant à droite du texte (ex. `/images/hero-accueil.jpg`). */
+    /** URL finale de l’image (idéalement via `import img from '…'` pour que Vite l’embarque au build). */
     illustrationUrl?: string
     /** Texte alternatif si l’image n’est pas purement décorative. */
     illustrationAlt?: string

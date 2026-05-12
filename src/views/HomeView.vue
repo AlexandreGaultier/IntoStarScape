@@ -2,12 +2,8 @@
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import ParallaxHero from '../components/ParallaxHero.vue'
-
-/** Visuel hero (paysage conseillé). */
-const heroIllustration = './src/assets/images/index_exploration.jpg'
-
-/** Portrait à droite de la section Outriders. */
-const bandPortraitUrl = './src/assets/images/univers_outriders.jpg'
+import heroIllustration from '../assets/images/index_exploration.jpg'
+import bandPortraitUrl from '../assets/images/univers_outriders.jpg'
 const bandImgBroken = ref(false)
 
 function onBandImgError() {

@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 import ParallaxHero from '../components/ParallaxHero.vue'
-
-const heroIllustration = './src/assets/images/index_hero_background.jpg'
+import heroIllustration from '../assets/images/index_hero_background.jpg'
 </script>
 
 <template>
