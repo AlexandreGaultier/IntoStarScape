@@ -5,21 +5,21 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
 </script>
 
 <template>
-  <article class="page-combat">
+  <article class="combat">
     <ParallaxHero :illustration-url="heroIllustration" :intensity="0.24">
-      <p class="page-combat__tag tag">Tactique</p>
-      <h1 class="page-combat__title">Combat &amp; équipement</h1>
-      <p class="page-combat__intro prose">
+      <p class="combat-mark tag">Tactique</p>
+      <h1 class="combat-title">Combat &amp; équipement</h1>
+      <p class="combat-lead prose">
         Combats sur <strong>battlemap</strong> avec distances lisibles, objectif de parties
         <strong>courtes</strong> : peu de PV, boucliers et armures comme barres tactiques. Le soin
         reste à trancher (compétences, seringues à charges, loot…).
       </p>
     </ParallaxHero>
 
-    <div class="container page-combat__body">
+    <div class="container combat-main">
       <section aria-labelledby="tour-title">
         <h2 id="tour-title">Structure d’un tour</h2>
-        <ul class="page-combat__list">
+        <ul class="combat-list">
           <li>
             <strong>Court déplacement</strong> + <strong>2 tirs</strong> (chacun envoie plusieurs
             salves), <em>ou</em>
@@ -32,15 +32,15 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
 
       <section aria-labelledby="pv-title">
         <h2 id="pv-title">PV, boucliers &amp; armures</h2>
-        <div class="page-combat__bars">
-          <div class="bar-card bar-card--hp">
+        <div class="combat-bars">
+          <div class="combat-bar combat-bar--hp">
             <h3>Points de vie</h3>
             <p>
               Les dégâts retirent des PV. À 0 : hors combat, besoin d’aide. Les dégâts
               <strong>thermiques</strong> sont plus efficaces contre les PV « à nu ».
             </p>
           </div>
-          <div class="bar-card bar-card--shield">
+          <div class="combat-bar combat-bar--shield">
             <h3>Boucliers</h3>
             <p>
               Barre bleue absorbant <strong>avant</strong> les PV. Une salve entière contre le
@@ -48,7 +48,7 @@ const heroIllustration = 'src/assets/images/index_survie.jpg'
               les PV. Les dégâts <strong>électriques</strong> sont plus efficaces.
             </p>
           </div>
-          <div class="bar-card bar-card--armor">
+          <div class="combat-bar combat-bar--armor">
             <h3>Armures</h3>
             <p>
               Barre jaune supplémentaire. Les dégâts <strong>corrosifs</strong> y sont particulièrement

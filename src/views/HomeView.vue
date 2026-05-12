@@ -16,53 +16,53 @@ function onBandImgError() {
 </script>
 
 <template>
-  <div class="page-home">
+  <div class="home">
     <ParallaxHero :illustration-url="heroIllustration">
-      <p class="page-home__tag tag">JDR science-fiction</p>
-      <h1 class="page-home__title">StarScape</h1>
-      <p class="page-home__lead">
+      <p class="home-mark tag">JDR science-fiction</p>
+      <h1 class="home-title">StarScape</h1>
+      <p class="home-lead">
         Un univers de <strong>Frontière</strong>, des contrats dangereux, et un système de dés clair :
         <strong>pool de d8</strong>, succès sur 6+, tension tactique.
       </p>
-      <div class="page-home__cta">
+      <div class="home-actions">
         <RouterLink to="/systeme" class="btn btn--primary">Découvrir le système</RouterLink>
         <RouterLink to="/univers" class="btn btn--ghost">Lire l’univers</RouterLink>
       </div>
     </ParallaxHero>
 
-    <section class="page-home__section container">
+    <section class="home-block container">
       <h2>Trois piliers de table</h2>
-      <div class="page-home__grid">
-        <article class="card page-home__card page-home__card--systeme">
+      <div class="home-row">
+        <article class="card home-card home-card--systeme">
           <h3>Règles limpides</h3>
           <p>
             Attribut + compétence en dés, difficultés lisibles, résultats qui poussent la narration :
             réussite, bonus, ou échec chargé.
           </p>
-          <RouterLink to="/systeme" class="card__link card__link--systeme">Voir les tests</RouterLink>
+          <RouterLink to="/systeme" class="home-link home-link--systeme">Voir les tests</RouterLink>
         </article>
-        <article class="card page-home__card page-home__card--combat">
+        <article class="card home-card home-card--combat">
           <h3>Combat nerveux</h3>
           <p>
             Tours courts, battlemap lisible, armes à portées simples, PV / boucliers / armures pour
             des affrontements haletants sans lourdeur.
           </p>
-          <RouterLink to="/combat" class="card__link card__link--combat">Feuille de combat</RouterLink>
+          <RouterLink to="/combat" class="home-link home-link--combat">Feuille de combat</RouterLink>
         </article>
-        <article class="card page-home__card page-home__card--lore">
+        <article class="card home-card home-card--lore">
           <h3>Science-fiction qui respire</h3>
           <p>
             Stations-cités cyberpunk, corporations voraces, scientifiques inquiétants, Outriders
             libres comme l’espace…
           </p>
-          <RouterLink to="/univers" class="card__link card__link--lore">Plonger dans le lore</RouterLink>
+          <RouterLink to="/univers" class="home-link home-link--lore">Plonger dans le lore</RouterLink>
         </article>
       </div>
     </section>
 
-    <section class="page-home__band" aria-labelledby="outriders-title">
-      <div class="page-home__band-inner container">
-        <div class="page-home__outriders">
+    <section class="home-band" aria-labelledby="outriders-title">
+      <div class="home-band-wrap container">
+        <div class="home-story">
           <h2 id="outriders-title">Vous êtes des Outriders</h2>
           <p>
             Les Outriders sont des mercenaires de l’espace. Ils vivent en petits groupes à bord d’un
@@ -75,7 +75,7 @@ function onBandImgError() {
             Scientifiques, les Neutres… et parfois même par les Aliens. Ces contrats se négocient le
             plus souvent dans les bars, véritables points de ralliement des Outriders.
           </p>
-          <p class="page-home__outriders-lead" style="color: var(--text-heading)">Libres.</p>
+          <p class="home-shout" style="color: var(--text-heading)">Libres.</p>
           <p>
             Ils peuvent choisir de travailler pour n’importe quelle faction, même si leurs actions
             sont moralement discutables, ce qui est souvent le cas des Corporations et de nombreux
@@ -84,10 +84,10 @@ function onBandImgError() {
             impactée.
           </p>
         </div>
-        <figure class="page-home__band-figure" aria-hidden="true">
+        <figure class="home-portrait" aria-hidden="true">
           <img
             v-if="!bandImgBroken"
-            class="page-home__band-img"
+            class="home-portrait-img"
             :src="bandPortraitUrl"
             alt=""
             loading="lazy"

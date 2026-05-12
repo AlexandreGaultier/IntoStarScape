@@ -5,11 +5,11 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
 </script>
 
 <template>
-  <article class="page-systeme">
+  <article class="systeme">
     <ParallaxHero :illustration-url="heroIllustration" :intensity="0.22">
-      <p class="page-systeme__tag tag">Mécaniques</p>
-      <h1 class="page-systeme__title">Système de jeu</h1>
-      <p class="page-systeme__intro prose">
+      <p class="systeme-mark tag">Mécaniques</p>
+      <h1 class="systeme-title">Système de jeu</h1>
+      <p class="systeme-lead prose">
         StarScape repose sur un <strong>pool de dés + succès</strong> : rapide à expliquer, riche en
         narration. Tu envisages des <strong>d12</strong> avec succès sur 9+ : garde l’idée en tête
         pour une future variante. Ici, référence actuelle sur <strong>d8</strong> (6, 7, 8 =
@@ -17,7 +17,7 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
       </p>
     </ParallaxHero>
 
-    <div class="container page-systeme__body">
+    <div class="container systeme-main">
       <section aria-labelledby="tests-title">
         <h2 id="tests-title">Tests &amp; actions</h2>
         <p>
@@ -98,7 +98,7 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
           Les compétences ajoutent des dés aux tests. Elles auront des rangs natifs au personnage ou
           octroyés par des objets (ex. malette de soins : +1 Médecine).
         </p>
-        <ul class="page-systeme__chips">
+        <ul class="systeme-list">
           <li>Tir</li>
           <li>Pilotage</li>
           <li>Survie</li>

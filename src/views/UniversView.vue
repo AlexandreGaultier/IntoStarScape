@@ -5,19 +5,19 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
 </script>
 
 <template>
-  <article class="page-univers">
+  <article class="univers">
     <ParallaxHero :illustration-url="heroIllustration" :intensity="0.26">
-      <p class="page-univers__tag tag">Lore</p>
-      <h1 class="page-univers__title">Univers &amp; factions</h1>
-      <p class="page-univers__intro prose">
+      <p class="univers-mark tag">Lore</p>
+      <h1 class="univers-title">Univers &amp; factions</h1>
+      <p class="univers-lead prose">
         Après l’exode depuis une Terre épuisée, l’humanité vit dans la <strong>Frontière</strong> :
         stations-cités cyberpunk, corporations voraces, science dangereuse, et vous,
         <strong>Outriders</strong>, libres mais jamais vraiment tranquilles.
       </p>
     </ParallaxHero>
 
-    <div class="container page-univers__body">
-      <section class="card page-univers__block">
+    <div class="container univers-main">
+      <section class="card univers-panel">
         <h2>Exode &amp; Frontière</h2>
         <p>
           Les humains ont quitté la Terre après en avoir tiré la dernière goutte de ressources. Des
@@ -35,7 +35,7 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
 
       <section>
         <h2>Factions</h2>
-        <div class="page-univers__factions">
+        <div class="univers-factions">
           <article class="card faction faction--corp">
             <h3>Corporations</h3>
             <p>
@@ -75,7 +75,7 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
           Denses, surpeuplées, néon et béton pressé : la réputation y vaut de l’or, les paiements
           passent en crypto humaine ou en Zenith, monnaie alien.
         </p>
-        <div class="page-univers__stations">
+        <div class="univers-stations">
           <article class="card station">
             <h3>Opportunity</h3>
             <p>

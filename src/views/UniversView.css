@@ -1,43 +1,43 @@
-.page-univers__intro {
+.univers-lead {
   margin: 0;
   max-width: 58ch;
   color: var(--text-muted);
 }
 
-.page-univers__tag {
+.univers-mark {
   width: 10%;
 }
 
-.page-univers__title {
+.univers-title {
   margin: 0 0 var(--space-sm);
 }
 
-.page-univers__body {
+.univers-main {
   padding: var(--space-xl) 0 var(--space-2xl);
   display: grid;
   gap: var(--space-xl);
 }
 
-.page-univers__body > section > h2:first-child {
+.univers-main > section > h2:first-child {
   margin-top: 0;
 }
 
-.page-univers__block p {
+.univers-panel p {
   color: var(--text-muted);
 }
 
-.page-univers__factions {
+.univers-factions {
   display: grid;
   gap: var(--space-md);
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 @media (max-width: 900px) {
-  .page-univers__tag {
+  .univers-mark {
     width: 16%;
   }
 
-  .page-univers__factions {
+  .univers-factions {
     grid-template-columns: 1fr;
   }
 }
@@ -72,14 +72,14 @@
   border-color: rgba(167, 139, 250, 0.45);
 }
 
-.page-univers__stations {
+.univers-stations {
   display: grid;
   gap: var(--space-md);
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 @media (max-width: 820px) {
-  .page-univers__stations {
+  .univers-stations {
     grid-template-columns: 1fr;
   }
 }
