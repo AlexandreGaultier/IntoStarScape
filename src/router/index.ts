@@ -20,6 +20,12 @@ const router = createRouter({
       meta: { title: 'Système de jeu' },
     },
     {
+      path: '/personnage',
+      name: 'personnage',
+      component: () => import('../views/PersonnageView.vue'),
+      meta: { title: 'Personnage' },
+    },
+    {
       path: '/combat',
       name: 'combat',
       component: () => import('../views/CombatView.vue'),

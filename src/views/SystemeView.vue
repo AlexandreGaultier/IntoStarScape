@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ParallaxHero from '../components/ParallaxHero.vue'
 
-const heroIllustration = 'src/assets/images/index_hero_background.jpg'
+const heroIllustration = 'src/assets/images/index_hero_background2.jpg'
 </script>
 
 <template>
@@ -24,9 +24,11 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
           Lorsqu’un personnage tente une action : <strong>Attribut + Compétence</strong> = nombre de
           <kbd>d8</kbd> lancés.
         </p>
-        <p>Chaque dé affichant <strong>6</strong>, <strong>7</strong> ou <strong>8</strong> compte pour <strong>1 succès</strong>.</p>
+        <p>
+          Chaque dé affichant <strong>6</strong>, <strong>7</strong> ou <strong>8</strong> compte
+          pour <strong>1 succès</strong>.
+        </p>
 
-        <section aria-labelledby="attr-title">
         <h2 id="attr-title">Attributs</h2>
         <p>Chaque attribut représente un domaine d’action général (d’autres pourront arriver).</p>
         <div class="table-wrap">
@@ -45,8 +47,7 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
             </tbody>
           </table>
         </div>
-      </section>
-        
+
         <h3>Difficulté</h3>
         <div class="table-wrap">
           <table>
@@ -97,6 +98,10 @@ const heroIllustration = 'src/assets/images/index_hero_background.jpg'
         <p>
           Les compétences ajoutent des dés aux tests. Elles auront des rangs natifs au personnage ou
           octroyés par des objets (ex. malette de soins : +1 Médecine).
+        </p>
+        <p>
+          La création de personnage, les PV de départ, le bouclier et les archétypes tout faits sont
+          sur la page <RouterLink to="/personnage">Personnage</RouterLink>.
         </p>
         <ul class="systeme-list">
           <li>Tir</li>

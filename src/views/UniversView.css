@@ -18,6 +18,25 @@
   gap: var(--space-xl);
 }
 
+.univers-canon {
+  margin: 0;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(45, 212, 191, 0.28);
+  background: rgba(45, 212, 191, 0.06);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.univers-aside {
+  margin: 0.65rem 0 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-style: italic;
+  opacity: 0.95;
+}
+
 .univers-main > section > h2:first-child {
   margin-top: 0;
 }

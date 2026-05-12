@@ -7,6 +7,7 @@ const navOpen = ref(false)
 const links = [
   { to: '/', label: 'Accueil' },
   { to: '/systeme', label: 'Système' },
+  { to: '/personnage', label: 'Personnage' },
   { to: '/combat', label: 'Combat' },
   { to: '/univers', label: 'Univers' },
 ] as const

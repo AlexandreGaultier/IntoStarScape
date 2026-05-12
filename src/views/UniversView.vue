@@ -10,8 +10,8 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
       <p class="univers-mark tag">Lore</p>
       <h1 class="univers-title">Univers StarScape</h1>
       <p class="univers-lead prose">
-        Exode, <strong>Frontière</strong>, stations-cités et factions qui se disputent l’avenir.
-        Vous incarnez des <strong>Outriders</strong> : libres, dangereux, jamais vraiment tranquilles.
+        Exode, <strong>Frontière</strong>, stations-cités et factions qui se disputent le futur.
+        Vous incarnez des <strong>Outriders</strong> : libres, dangereux, jamais vraiment à l’abri.
       </p>
     </ParallaxHero>
 
@@ -19,23 +19,20 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
       <section class="card univers-panel" aria-labelledby="exode-title">
         <h2 id="exode-title">Exode</h2>
         <p>
-          Les humains ont quitté la planète Terre depuis bien longtemps, après en avoir exploité
-          jusqu’à la dernière ressource. La vie y étant devenue impossible, l’Humanité a construit
-          d’immenses vaisseaux spatiaux afin de traverser les galaxies à la recherche de nouveaux
-          endroits où s’installer.
+          Les humains ont quitté la Terre depuis bien longtemps, après en avoir épuisé la dernière
+          ressource encore exploitable. La vie y étant devenue impossible, l’Humanité a bâti de vastes
+          vaisseaux et colonies mobiles pour traverser le vide et chercher un nouveau foyer.
         </p>
         <p>
-          Nul ne se souvient vraiment de la durée de ce voyage. Des centaines, peut-être des
-          milliers d’années. Le temps s’est dilué au fil des générations nées à bord de ces
-          vaisseaux-mondes. Des rumeurs, transmises de génération en génération, racontent que
-          l’Humanité a vu naître durant cet exode de véritables génies : des scientifiques capables de
-          maîtriser la science et la compréhension des trous de ver, accélérant ainsi le voyage et
-          rendant la vie durable à bord de ces vaisseaux.
+          Nul ne sait vraiment combien de temps les flottes ont erré : des centaines ou des milliers
+          d’années, au point que la durée se dissout dans la mémoire collective. Des rumeurs, de
+          génération en génération, évoquent des génies nés à bord qui ont maîtrisé les trous de ver,
+          accéléré le trajet et rendu la vie durable, voire viable sur le long terme, dans ces cités
+          suspendues entre les mondes.
         </p>
         <p>
-          C’est grâce à ces avancées que l’Humanité, arrivée aux frontières de l’espace connu à
-          l’époque de son départ de la Terre, a finalement trouvé sa place dans une nouvelle
-          galaxie.
+          À partir de ces percées, la civilisation arrivée au bord de l’espace connu à l’époque du
+          départ a fini par s’installer dans une galaxie neuve, aujourd’hui appelée la Frontière.
         </p>
       </section>
 
@@ -51,9 +48,9 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
           surface de ces mondes.
         </p>
         <p>
-          Les stations ont pu être construites et étendues après des centaines d’années grâce aux
-          corporations, qui ont exploité les ressources des planètes environnantes afin d’augmenter
-          la taille, la densité et la puissance de ces stations-cités.
+          Les stations ont pu naître puis grossir sur des siècles grâce aux corporations, qui ont
+          exploité les planètes voisines pour augmenter la surface habitable, la densité urbaine et la
+          puissance des stations-cités.
         </p>
         <p>
           Après des siècles d’expansion, quatre grandes stations ont été bâties. Aujourd’hui, elles
@@ -72,10 +69,11 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
               environnantes. Elles sont en concurrence permanente les unes avec les autres.
             </p>
             <p>
-              On retrouve partout leur propagande, dénonçant les autres corpos. Elles incarnent
-              l’ordre, la puissance militaire, les armes et armures sophistiquées. Mais elles sont
-              aussi vivement critiquées pour leurs méthodes brutales et leur absence totale de
-              considération pour la faune, la flore et les paysages des planètes exploitées.
+              Leurs campagnes de propagande inondent les couloirs et dénoncent sans relâche les
+              autres corpos, tandis qu’elles affichent ordre, armement de pointe et armures de
+              parade. Dans le même temps, beaucoup d’habitants dénoncent leurs agissements souvent
+              brutaux et l’absence totale de considération pour la faune, la flore et les paysages
+              ravagés.
             </p>
             <p>
               Sur ces mondes, d’immenses structures industrielles creusent toujours plus profondément,
@@ -87,46 +85,46 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
             <h3>Scientifiques</h3>
             <p>
               Les Scientifiques cherchent à comprendre les habitants de cette galaxie : une race
-              alien (dont le nom reste à définir) présente bien avant l’arrivée de l’Humanité.
+              extraterrestre (dont le nom reste à définir) présente bien avant l’arrivée de
+              l’Humanité.
             </p>
             <p>
-              Ils sont constamment à la recherche d’artefacts aliens, aussi rares que puissants. Les
-              Scientifiques travaillent souvent main dans la main avec les Corporations, mais une part
-              non négligeable d’entre eux opère de manière indépendante, parfois même en opposition
-              ouverte.
+              Ils traquent des artefacts aliens aussi puissants qu’ultra-rares. Souvent de pair avec
+              les Corporations, une fraction importante travaille aussi en marge, parfois ouvertement
+              contre elles.
             </p>
             <p>
-              Ils sont tristement connus pour leurs expériences douteuses, menées sans scrupules sur
-              les Aliens, qu’ils considèrent comme de simples cobayes. On raconte que certains
-              laboratoires indépendants, dissimulés loin des systèmes habités, réalisent des
-              expériences aussi fascinantes qu’horrifiques sur leurs sujets.
+              Leurs expériences douteuses sur les Aliens, traités comme de simples cobayes, sont
+              notoires. Certains laboratoires indépendants se cachent hors des cartographies
+              officielles pour mener des protocoles aussi fascinants qu’horrifiques, loin de tout
+              contrôle.
             </p>
           </article>
 
           <article class="card faction faction--out">
             <h3>Neutres &amp; Outriders</h3>
             <p>
-              La faction dite Neutre regroupe tous les humains n’appartenant ni aux Corporations ni
-              aux Scientifiques. Elle inclut la majorité des habitants des stations-cités, mais
-              surtout les Outriders.
+              La faction dite « Neutre » couvre tout humain qui n’est ni corporatiste ni scientifique
+              de carrière, y compris la masse des habitants des stations-cités. Le vocable reste un
+              code de table : un nom définitif viendra quand tu trancheras.
             </p>
             <p>
-              Les Outriders sont des mercenaires de l’espace. Ils vivent en petits groupes à bord
-              d’un vaisseau spatial qui leur sert à la fois de maison, de moyen de transport et d’outil
-              de survie. Les joueurs incarnent tous des Outriders.
+              Les Outriders sont des mercenaires de l’espace, en petits équipages sur un vaisseau qui
+              fait office de maison indépendante, de transport et d’outil de survie. Les joueuses et
+              joueurs incarnent tous des Outriders.
             </p>
             <p>
-              Ils récupèrent des missions dans les stations-cités, proposées par les Corporations, les
-              Scientifiques, les Neutres… et parfois même par les Aliens. Ces contrats se négocient le
-              plus souvent dans les bars, véritables points de ralliement des Outriders.
+              Ils récupèrent missions et quêtes dans les stations-cités, émises par les Corporations,
+              les Scientifiques, les milieux dits Neutres ou même les Aliens. Les contrats se
+              négocient le plus souvent dans les bars, repaires naturels des Outriders.
             </p>
             <p class="faction-pull">Les Outriders sont libres.</p>
             <p>
-              Ils peuvent choisir de travailler pour n’importe quelle faction, même si leurs actions
-              sont moralement discutables, ce qui est souvent le cas des Corporations et de nombreux
-              Scientifiques. Ils sont également libres de trahir leurs employeurs s’ils estiment qu’une
-              autre cause est plus juste, au risque de voir leur réputation personnelle lourdement
-              impactée.
+              Ils peuvent choisir d’agir pour les Corporations, les Scientifiques, les Neutres ou les
+              Aliens, même quand la mission semble immorale, ce qui arrive souvent avec les corpos et
+              une grande partie des labos. Ils restent libres de trahir un employeur pour une cause
+              qui leur paraît plus juste sur le moment, au prix d’une réputation personnelle qui peut
+              voler en éclats.
             </p>
           </article>
 
@@ -134,18 +132,17 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
             <h3>Aliens</h3>
             <p>Les Aliens constituent la dernière grande faction.</p>
             <p>
-              Environ 70 % d’entre eux vivent aux côtés des humains, partageant certaines de leurs
-              technologies et de leur savoir. Ils sont considérés comme des égaux, et ne sont pas
-              plus hostiles que ne le seraient des humains entre eux.
+              Environ 70 % d’entre eux cohabitent avec les humains et leur ont apporté des technologies
+              nouvelles et des savoirs inédits. Ils sont traités comme des égaux et ne sont pas plus
+              agressifs qu’un humain pris au hasard.
             </p>
             <p>
-              Cependant, les 30 % restants sont convaincus que les humains sont des envahisseurs. Ces
-              Aliens se sont tournés vers une forme de religion cosmique, source de la puissance de
-              leurs artefacts anciens.
+              Le tiers restant voit les humains comme des envahisseurs. Ils puisent dans une religion
+              cosmique la puissance de leurs artefacts anciens.
             </p>
             <p>
-              Ils se cachent dans les recoins les plus reculés de la Frontière, protègent jalousement
-              leurs artefacts et lancent régulièrement des attaques contre les installations humaines.
+              Cantonnés dans les recoins les plus sombres de la Frontière, ils protègent jalousement
+              leurs reliques et mènent des attaques fréquentes contre les installations humaines.
             </p>
           </article>
         </div>
@@ -154,10 +151,9 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
       <section aria-labelledby="stations-title">
         <h2 id="stations-title">Stations-cités</h2>
         <p class="univers-stations-lead prose muted">
-          Les stations-cités sont d’immenses villes spatiales, extrêmement denses, surpeuplées, à
-          l’esthétique très cyberpunk. Dans ces lieux, la réputation est une valeur aussi précieuse que
-          l’argent. Les échanges se font aussi bien en cryptomonnaies humaines qu’en Zenith, une
-          monnaie d’origine alien.
+          Les stations-cités sont des mégalopoles suspendues, hyper denses, saturées de néons et de
+          béton, où la réputation vaut autant que l’argent. Les paiements circulent en cryptomonnaies
+          humaines comme en Zenith, monnaie aliène devenue standard sur les quais.
         </p>
         <h3 class="univers-stations-sub">Les quatre grandes stations</h3>
         <div class="univers-stations">
@@ -167,6 +163,10 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
             <p>
               Propre, ordonnée, surveillée en permanence, elle dispose d’une présence militaire
               écrasante. L’ordre y règne au prix de la liberté.
+            </p>
+            <p class="univers-aside">
+              Nom volontairement proche d’une station-corpo emblématique de fiction populaire : le
+              clin d’œil est assumé en table.
             </p>
           </article>
 
@@ -178,9 +178,10 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
               majorité des missions se négocient et que la réputation a le plus de valeur.
             </p>
             <p>
-              La pauvreté y est omniprésente, mais l’espoir et l’ambition aussi. Les habitants sont
-              solidaires, chaleureux entre eux. Les réseaux de connaissances remplacent souvent les lois
-              officielles, empêchant les conflits ouverts.
+              La pauvreté y est omniprésente, mais l’espoir et l’ambition aussi. Les habitants se
+              tirent vers le haut, chaleureux entre eux : ce sont souvent les chaînes du « qui connaît
+              qui » qui désamorcent les crises avant qu’elles n’éclatent au grand jour, là où les lois
+              officielles peinent à suivre.
             </p>
             <p>
               Cependant, des affaires macabres se déroulent dans les recoins les plus sombres de la
@@ -196,19 +197,18 @@ const heroIllustration = 'src/assets/images/univers_map.jpg'
               trouve également les meilleurs marchands.
             </p>
             <p>
-              De nombreux mystères entourent les dirigeants de cette station, où des événements
-              anormaux se produisent régulièrement. Elle abrite aussi la plus grande population alien
-              connue dans la Frontière.
+              Les mystères entourent ses dirigeants comme ses couloirs : événements anormaux, rumeurs
+              de labos fantômes, marchés gris qui s’ouvrent et se referment. Elle concentre aussi la
+              plus grande population alien recensée sur la Frontière.
             </p>
           </article>
 
           <article class="card station">
             <h3>La station-vaisseau <span class="wip">Nom à définir</span></h3>
-            <p>La plus récente des quatre.</p>
+            <p>La plus récente des quatre : une « fausse » station, en réalité un spatioport agrégé.</p>
             <p>
-              Il ne s’agit pas d’une véritable station, mais d’un immense spatioport composé de
-              centaines de vaisseaux d’Outriders assemblés les uns aux autres, formant un gigantesque
-              vaisseau à part entière.
+              Des centaines de vaisseaux d’Outriders s’y sont amarrés les uns aux autres jusqu’à former
+              une coque commune, un seul objet flottant à l’échelle d’un monde artificiel.
             </p>
             <p>La vie y est rude. La loi du plus fort y règne souvent.</p>
             <p>
